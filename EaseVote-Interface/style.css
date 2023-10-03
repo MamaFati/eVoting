@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+.navbar .dropdown-toggle::after {
+  border: none;
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-right: 30px;
+  padding: 25px 0;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-right: 0;
+    padding: 10px 0;
+  }
+
+  .navbar-light .navbar-nav {
+    border-top: 1px solid #eeeeee;
+  }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+  height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.navbar-light.sticky-top {
+  top: -100px;
+  transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+
+  .navbar .dropdown-menu.fade-down {
+    top: 100%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    top: 100%;
+    transform: rotateX(0deg);
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
+  }
+}
+
+/* header1 css */
+.header1-bgImage {
+  width: 100%;
+  height: 500px;
+  background-image: url("./images/pexels-edmond-dantès-7103189.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+}
+/*  */
+.service1,
+.service2,
+.service3 {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.5s;
+  height: 100%;
+}
+i {
+  color: #37517e;
+}
+ 
+/* SigIn.html css */
+.sigIn{
+  background-color: aliceblue;
+}
+.sigIn-nav{
+  background-color: rgb(207, 9, 9);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.sigIn-nav-icon i{
+  color: #ffffff;
+
+ width: 40px;
+}
+.sigIn-nav-logo{
+  margin-left: 30px;
+  font-weight: bold;
+}
+/* header1 */
+.sigIn-page{
+  width: 70%;
+  height: 500px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+   background-color: #ffffff;
+}
+.user-img{
+  width: 50vh;
+}
+.user{
+  width: 10%;
+}
+input{
+  width: 70%;
+  border: 1px solid black;
+}
+/* Awards1.html styles */
+.awards-header1{
+  align-items: center;
+}
+.awards-header2{
+  background-color: #37517e;
+  align-items: center;
+  /* height: 30px; */
+}
+.threeDot{
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+.awards-box{
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+} 
