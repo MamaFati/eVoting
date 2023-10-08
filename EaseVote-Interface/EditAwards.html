@@ -36,79 +36,186 @@
       </div>
     </nav>
     <section>
-      <div class="d-flex justify-content-evenly">
+      <div class="d-flex justify-content-center">
         <div>
-          <div><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
-          <div><i class="fa fa-pencil" aria-hidden="true"></i></div>
-          <div><i class="fa fa-plus-circle" aria-hidden="true"></i></div>
-          <div><i class="fa fa-trophy" aria-hidden="true"></i></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div
+            class="shadow-sm p-2 mt-5 mb-2 bg-body rounded table-hover pointer"
+          >
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-arrow-left" aria-hidden="true">Awards</i></a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-pencil" aria-hidden="true"> Edit Awards</i></a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-plus-circle" aria-hidden="true">
+                Categories</i
+              ></a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-trophy" aria-hidden="true"> Nominess</i></a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-users" aria-hidden="true">Nominations</i>
+            </a>
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-cubes" aria-hidden="true"> Bulk Volting</i></a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-balance-scale" aria-hidden="true"> Stages</i></a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-trophy" aria-hidden="true"></i> Votes</a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-trophy" aria-hidden="true"> Results</i></a
+            >
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-exchange" aria-hidden="true">Transfer</i>
+            </a>
+          </div>
+          <div class="shadow-sm p-2 mb-2 bg-body rounded">
+            <a href="" class="text-decoration-none text-dark"
+              ><i class="fa fa-usd" aria-hidden="true"> Payments</i></a
+            >
+          </div>
         </div>
-        <div
-          class="col-lg-3 mt-5 awards-box"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <div class="d-flex justify-content-lg-evenly p-3">
+        <div class="col-lg-3 mt-5 mx-5" data-aos="fade-up" data-aos-delay="200">
+          <h3>Edit logo</h3>
+          <div class="awards-box py-5 px-2">
             <div>
-              <p>Kstu IDCE Golden Palate Awards</p>
-              <p>Not published - 13% service fee</p>
-            </div>
-            <div class="threeDot">
-              <h1 class="text-center">...</h1>
-            </div>
-          </div>
-          <img
-            src="./images/gregoire-bertaud-VVnVN58adiA-unsplash.jpg"
-            alt=""
-            class="img-fluid"
-          />
-          <div class="d-flex justify-content-evenly">
-            <div>
-              <p>Pricing type</p>
-              <p>Paid(GHS 0.05)</p>
+              <h3>Awards logo</h3>
+              <p>
+                This is the first image people will see at the top of your
+                awards Use a high quality square image
+              </p>
             </div>
             <div>
-              <p>Showing Results</p>
-              <p>No</p>
+              <img
+                src="./images/gregoire-bertaud-VVnVN58adiA-unsplash.jpg"
+                alt=""
+                class="img-fluid"
+              />
             </div>
+            <p>*Click image to pick logo</p>
           </div>
         </div>
-        <div
-          class="col-lg-3 mt-5 awards-box"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <div class="d-flex justify-content-lg-evenly p-3">
+        <div class="col-lg-3 mt-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="awards-box py-5 px-2 mb-3">
             <div>
-              <p>Kstu IDCE Golden Palate Awards</p>
-              <p>Not published - 13% service fee</p>
+              <h3>About the awards</h3>
+              <p>Let people know who is hosting the awards</p>
             </div>
-            <div class="threeDot">
-              <h1 class="text-center">...</h1>
+            <form action="">
+              <label for=""
+                ><span class="text-danger">*</span> organisation</label
+              >
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Anas Tech Consult</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <label for=""
+                ><span class="text-danger">*</span> Award name</label
+              >
+              <input type="text" class="form-control" id=" " />
+              <div class="form-row d-flex my-3">
+                <div class="col me-1">
+                  <label for=""
+                    ><span class="text-danger">*</span> Voting start date</label
+                  >
+                  <input type="date" class="form-control" />
+                </div>
+                <div class="col">
+                  <label for=""
+                    ><span class="text-danger">*</span> Voting start time</label
+                  >
+                  <input type="time" class="form-control" />
+                </div>
+              </div>
+              <div class="form-row d-flex my-3">
+                <div class="col me-1">
+                  <label for=""
+                    ><span class="text-danger">*</span> Voting end date</label
+                  >
+                  <input type="date" class="form-control" />
+                </div>
+                <div class="col">
+                  <label for=""
+                    ><span class="text-danger">*</span> Voting end time</label
+                  >
+                  <input type="time" class="form-control" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="awards-box py-5 px-2">
+            <div>
+              <h3>Nomination</h3>
+              <p>Set nomination dates and pricing</p>
+            </div>
+            <form action="">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="" />
+                <label class="form-check-label" for="">
+                  Activate nominations</label
+                >
+              </div>
+              
+            <div class="form-row d-flex my-3">
+              <div class="col me-1">
+                <label for=""
+                  ><span class="text-danger">*</span> Nomination start date</label
+                >
+                <input type="date" class="form-control" />
+              </div>
+              <div class="col">
+                <label for=""
+                  ><span class="text-danger">*</span> Nomination start time</label
+                >
+                <input type="time" class="form-control" />
+              </div>
+            </div>
+            <div class="form-row d-flex my-3">
+              <div class="col me-1">
+                <label for=""
+                  ><span class="text-danger">*</span> Nomination start date</label
+                >
+                <input type="date" class="form-control" />
+              </div>
+              <div class="col">
+                <label for=""
+                  ><span class="text-danger">*</span> Nomination start time</label
+                >
+                <input type="time" class="form-control" />
+              </div>
             </div>
           </div>
-          <img
-            src="./images/gregoire-bertaud-VVnVN58adiA-unsplash.jpg"
-            alt=""
-            class="img-fluid"
-          />
-          <div class="d-flex justify-content-evenly">
-            <div>
-              <p>Pricing type</p>
-              <p>Paid(GHS 0.05)</p>
-            </div>
-            <div>
-              <p>Showing Results</p>
-              <p>No</p>
-            </div>
-          </div>
+          <div class="input-group">
+   
+         <!-- </div> -->
+              
+        </form>
+           
         </div>
       </div>
     </section>
